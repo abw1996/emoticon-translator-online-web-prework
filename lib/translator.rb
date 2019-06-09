@@ -10,8 +10,9 @@ def load_library(direct)
   libertee
 end
 
-def get_japanese_emoticon
-  # code goes here
+def get_japanese_emoticon(directory, eng_emoticon)
+  library = load_library(directory)
+  library["get_emoticon"][eng_emoticon]
 end
 
 def get_english_meaning
