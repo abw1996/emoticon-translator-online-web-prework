@@ -57,7 +57,7 @@ describe "#load_library" do
   end
 
 end
-=begin
+
 describe "#get_japanese_emoticon" do
 
   it "accepts two arguments, the YAML file path and the emoticon" do
@@ -90,7 +90,7 @@ describe "#get_japanese_emoticon" do
   end
 
 end
-
+=begin
 describe "#get_english_meaning" do
 
   it "accepts two arguments, the YAML file path and the emoticon" do
