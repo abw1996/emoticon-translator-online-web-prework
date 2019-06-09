@@ -1,7 +1,7 @@
 require 'yaml' 
 require 'pry'
 def load_library(direct)
-  libertee = {"get_meaning": {} , "get_emoticon": {}}
+  libertee = {"get_meaning"=> {} , "get_emoticon"=> {}}
   leeberee = YAML.load_file(direct)
   leeberee.each do |type, arri|
     binding.pry
